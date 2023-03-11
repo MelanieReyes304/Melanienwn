@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    
+    <body>
+        <h1>Formulario</h1>
+        
+        <form method="POST">
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="fnombre" name="fnombre"><br>
+            <label for="Password">Contraseña:</label><br>
+            <input type="Password" id="fPassword" name="fPassword"><br>
+            
+            <label for="fcorreo">Correo:</label><br>
+            <input type="email" id="fcorreo" name="Correo"><br>
+            <br>
+            <label for="Fnacimiento">Fecha de nacimiento:</label><br>
+            <input type="datetime-local" id="Fnacimiento" name="Fnacimiento" min="1900-01-01"><br>
+            <br>
+            <label for="fcabello">Color de cabello: </label>
+                <input type="color" id="fcabello" name="fcabello" value="#000000">
+                <br>
+                <label for="ffoto">Elije una foto para tu perfil</label>
+                <input type="file" id="ffoto" name="ffoto"><br>
+                <br>
+            <br>
+            <label for="fgenero">Genero:</label><br>
+            <br>
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" id="Masculino" name="Genero" value= "Masculino"><br>
+            <label for="Femenino">Femenino</label><br>
+            <input type="radio" id="Femenino" name="Genero" value= "Femenino"><br>
+            <br>
+            
+            <label for="preferencia1">Sushi</label>
+            <input type="checkbox" id="Preferencia1" name="preferencia1" value="Sushi"><br>
+
+            <label for="preferencia2">Tacos</label>
+            <input type="checkbox" id="Preferencia2" name="preferencia2" value="Tacos"><br>
+         
+            <label for="preferencia3">Pizza</label>
+            <input type="checkbox" id="Preferencia3" name="preferencia3" value="Pizza"><br>
+           
+           <br>
+           <label form="Comentarios">Comentarios</label><br>
+            <textarea name="Comentarios" cols="40" rows="5"></textarea>
+            <br>
+            <br>
+            <input type="reset" value="reset">
+<input type="submit" value="Enviar">
+<input type="image" src="Imagenes/images.png" alt="Enviar" width="39" height="26">
+           
+
+        </form>
+    </body>
+</head>
+</html>
